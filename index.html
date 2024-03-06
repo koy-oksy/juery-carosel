@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Галерея</title>
+    <title>Gallery</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
@@ -12,17 +12,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
     />
-    <style>
-      .owl-prev,
-      .owl-next {
-        font-size: 24px; /* Змінюємо розмір шрифту кнопок */
-        color: red; /* Змінюємо колір кнопок */
-        background-color: transparent; /* Змінюємо фон кнопок на прозорий */
-        border: 2px solid red; /* Змінюємо колір та товщину рамки кнопок */
-        border-radius: 50%; /* Закруглюємо кути кнопок */
-        padding: 10px; /* Додаємо відступи всередині кнопок */
-      }
-    </style>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <div class="owl-carousel owl-theme">
@@ -44,7 +34,6 @@
           alt="Image 3"
         />
       </div>
-      <!-- Додайте більше слайдів за потребою -->
     </div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -55,7 +44,7 @@
           items: 1,
           loop: true,
           autoplay: true,
-          startPosition: 1, // Починаємо з другого слайда (індекс 1)
+          startPosition: 1,
           touchDrag: true,
           dots: true,
         });
